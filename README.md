@@ -110,3 +110,15 @@ Your input may contain 2 or 3 digit numbers, such as `12` or `381`. To capture t
 #### 3. Order matters... sometimes!
 
 You may find that your code works for `+` and `*` but not for `-`, `/`, and `%`. This is known in math as the commutative property. For example, `4 + 2` and `2 + 4` are always going to return the same thing. Addition and multiplication are commutative, but division and subtraction are not! When grabbing the "last two" numbers to solve for your operator, order matters! 
+
+## Test Cases
+
+TBD
+
+## Bonus
+
+All done with time to spare? Already DRYed out your code too? Try out one of the following challenges:
+
+1. Implement your solution to include floating point numbers. Use test cases like `1.5 3.5 +`, which should equal `5.0`.
+1. Implement your solution to check for a valid input length before solving. What ratio of operators to numbers is "valid"?
+1. Implement a solution for exponents

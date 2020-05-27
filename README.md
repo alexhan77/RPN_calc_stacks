@@ -111,14 +111,38 @@ Your input may contain 2 or 3 digit numbers, such as `12` or `381`. To capture t
 
 You may find that your code works for `+` and `*` but not for `-`, `/`, and `%`. This is known in math as the commutative property. For example, `4 + 2` and `2 + 4` are always going to return the same thing. Addition and multiplication are commutative, but division and subtraction are not! When grabbing the "last two" numbers to solve for your operator, order matters! 
 
+#### 4. Your return value should be a number, not a string
+
+Does your function work for a length of 1 number? For example, if I just passed in the string `'2'`, will your function give me back the number `2`?
+
 ## Test Cases
 
 Think you're ready to roll? Try these out!
 
 ```py
-test1 = calculate_rpn('2 4 +') == 6
-if test1: print('✅ Passing for "2 4 +"')
+# Basic Test
+if calculate_rpn('2 4 +') == 6: print('✅ Passing for "2 4 +"')
 else: print('🚫 Not passing for "2 4 +"')
+
+# Test for single number as input
+if calculate_rpn('2') == 2: print('✅ Passing for "2"')
+else: print('🚫 Not passing for "2"')
+
+# Test for subtraction
+if calculate_rpn('2 1 -') == 1: print('✅ Passing for "2 1 -"')
+else: print('🚫 Not passing for "2 1 -"')
+
+# Test for 2-digit numbers
+if calculate_rpn('12 4 *') == 48: print('✅ Passing for "12 4 *"')
+else: print('🚫 Not passing for "12 4 *"')
+
+# Test multiple calculations
+if calculate_rpn('12 381 + 111 -') == 282: print('✅ Passing for "12 381 + 111 -"')
+else: print('🚫 Not passing for "12 381 + 111 -"')
+
+# Test multiple calculations
+if calculate_rpn('1 2 3 + 4 * +') == 21: print('✅ Passing for "1 2 3 + 4 * +"')
+else: print('🚫 Not passing for "1 2 3 + 4 * +"')
 ```
 
 ## Bonus

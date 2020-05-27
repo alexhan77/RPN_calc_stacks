@@ -27,16 +27,16 @@ For postfix operators, such as the above `1 2 3 + 4 * +`, we can iterate through
 1. We see the number `3`. Save for later!
 1. We see the operator `+`
 1. Fetch the last two numbers and solve `2 + 3`
-1. Save the result of `2 + 3`, `5` for later!
+1. Save the result of `2 + 3`, `5`, for later!
 1. We see the number `4`. Save for later!
 1. We see the operator `*`
-1. Fetch the last two numbers and solve `5 + 4`
-1. Save the result of `5 + 4`, `9`, for later!
+1. Fetch the last two numbers and solve `5 * 4`
+1. Save the result of `5 * 4`, `20`, for later!
 1. We see the operator `+`
-1. Fetch the last two numbers and solve `1 + 9`
-1. Save the result of `1 + 9`, `10`, for later!
+1. Fetch the last two numbers and solve `1 + 20`
+1. Save the result of `1 + 20`, `21`, for later!
 1. We are out of items to iterate through, so we are done! There should be one item saved which is the answer to the problem
-1. Return the answer, which is `10`
+1. Return the answer, which is `21`. Blackjack!
 
 ## Starter Code
 

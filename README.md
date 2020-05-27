@@ -117,7 +117,7 @@ Does your function work for a length of 1 number? For example, if I just passed 
 
 ## Test Cases
 
-Think you're ready to roll? Try these out!
+Think you're ready to roll? Try these out by copying and pasting them at the bottom of your file!
 
 ```py
 # Basic Test

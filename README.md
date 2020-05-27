@@ -113,7 +113,13 @@ You may find that your code works for `+` and `*` but not for `-`, `/`, and `%`.
 
 ## Test Cases
 
-TBD
+Think you're ready to roll? Try these out!
+
+```py
+test1 = calculate_rpn('2 4 +') == 6
+if test1: print('✅ Passing for "2 4 +"')
+else: print('🚫 Not passing for "2 4 +"')
+```
 
 ## Bonus
 

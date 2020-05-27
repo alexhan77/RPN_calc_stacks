@@ -1,6 +1,6 @@
 # Reverse Polish Notation Caclculator
 
-Stacks can be more useful than they seem at first! We've seen how they can make a simple bracket matcher, now let's use it to make a reverse polish notation calculator.
+Let's use one of our favorite data structures to make a reverse polish notation calculator.
 
 ## What is RPN?
 

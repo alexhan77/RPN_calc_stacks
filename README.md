@@ -105,4 +105,8 @@ Your input may contain 2 or 3 digit numbers, such as `12` or `381`. To capture t
 12 381 + 111 -
 ```
 
-**This is valid! Expected Value: 282**
+*This is valid! Expected Value: 282*
+
+#### 3. Order matters... sometimes!
+
+You may find that your code works for `+` and `*` but not for `-`, `/`, and `%`. This is known in math as the commutative property. For example, `4 + 2` and `2 + 4` are always going to return the same thing. Addition and multiplication are commutative, but division and subtraction are not! When grabbing the "last two" numbers to solve for your operator, order matters! 

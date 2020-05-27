@@ -72,8 +72,8 @@ def calculate_rpn(input):
   # Split the string input on spaces
   # Iterate through the input
     # Check if the item is an operator or not
-      # If operator: Solve for the operator with the last two numbers
-      # If number: Save for later
+      # If operator: Solve for the operator with the last two numbers (Two pops, then a push) 
+      # If number: Save for later (Push to stack)
   # return the one item remaining on the stack
   
 calculate('9 2 +')
@@ -84,6 +84,12 @@ calculate('9 2 +')
 You can assume that you will be given a valid input - you don't need to solve for mismatched operators or empty input.
 
 ### Some Hints
+
+Having trouble getting started? Keep in mind that your first solution doesn't have to be the *best* solution. You can always go back and make it pretty later. Use big ugly if statements, don't get tripped up on making an elegant solution. Additionally, solve for the simple cases before worrying about how to do the more complex cases!
+
+Once you've solved for the simple case run through the test cases and then, if any are failing, visit the "gotchas" section below. 
+
+### Some Gotchas...
 
 #### 1. Remember that you will need to deal with numbers when doing math, not strings.
 
